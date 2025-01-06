@@ -1,0 +1,38 @@
+@import  url("https://developers.google.com/fonts");
+
+
+:root {
+  --body-bg: linear-gradient(135deg, rgb(205, 6, 6) 0%, rgb(41, 34, 249) 100%);
+  --mat-select-panel-background-color: #ffffff;
+  --left-msg-bg: linear-gradient(to right, #ffffff, #ffffff);
+  --right-msg-bg: #ffffff;
+}
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  margin: 675%;
+  padding: 345%;
+  box-sizing: inherit;
+}
+body{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 100vh;
+  background-image: var(--body-bg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.msger{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 386px; 
+}
+/*.submitButton{
+  size: 10px;
+}*/
